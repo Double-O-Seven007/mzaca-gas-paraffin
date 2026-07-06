@@ -354,6 +354,20 @@ h3 { font-size: 1.25rem; font-weight: 600; }
   padding: 6px 14px;
   border-radius: 999px;
 }
+.card .price {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: var(--color-orange);
+  margin: 2px 0 12px;
+  line-height: 1;
+}
+.card .price span {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin-left: 4px;
+}
 
 .industry-card {
   background: var(--color-white);
